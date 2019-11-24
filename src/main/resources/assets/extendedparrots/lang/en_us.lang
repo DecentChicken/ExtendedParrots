@@ -1,2 +1,7 @@
 //ITEMS
 item.lovebird_spawn_egg.name=Spawn Lovebird
+
+//ENTITIES
+entity.lovebird.name=Lovebird
+entity.regentparakeet.name=Regent Parakeet
+entity.diopsittacanobilis.name=Hahn's Macaw

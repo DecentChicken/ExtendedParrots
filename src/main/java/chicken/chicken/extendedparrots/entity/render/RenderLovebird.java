@@ -13,7 +13,6 @@ public class RenderLovebird extends RenderLiving<EntityLovebird>
 	public static final ResourceLocation[] TEXTURES = new ResourceLocation[] {new ResourceLocation(Reference.MOD_ID + ":textures/entity/lovebird_fischeri.png"), new ResourceLocation(Reference.MOD_ID + ":textures/entity/lovebird_personata_azul.png")};
 	public RenderLovebird(RenderManager manager) {
 		super(manager, new ModelLovebird(), 0.2f);
-		System.out.println("Renderlovebird created");
 	}
 
 	@Override
