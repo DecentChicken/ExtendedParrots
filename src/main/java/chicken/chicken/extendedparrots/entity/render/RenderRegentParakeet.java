@@ -18,7 +18,7 @@ public class RenderRegentParakeet extends RenderLiving<EntityRegentParakeet>
 
 	@Override
 	protected ResourceLocation getEntityTexture(EntityRegentParakeet entity) {
-		return TEXTURES[entity.rndTexture];
+		return TEXTURES[entity.getTexture()];
 	}
 	
 	@Override

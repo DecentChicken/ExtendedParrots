@@ -17,7 +17,8 @@ public class RenderLovebird extends RenderLiving<EntityLovebird>
 
 	@Override
 	protected ResourceLocation getEntityTexture(EntityLovebird entity) {
-		return TEXTURES[entity.rndTexture];
+		System.out.println("Called getEntityTexture");
+		return TEXTURES[entity.getTexture()];
 	}
 
 	@Override
